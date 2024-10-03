@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayura Retreat - Booking</title>
+    <link rel="stylesheet" href="style.css"> <!-- Use the same CSS file for consistency -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mayura Retreat</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#rooms">Rooms & Suites</a></li>
+                <li><a href="index.html#facilities">Facilities</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="booking-form">
+        <h2>Book Your Stay</h2>
+        <form action="confirmation.html" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required min="1" max="10">
+
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" name="room-type">
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Executive Suite</option>
+            </select>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Mayura Retreat © 2024 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

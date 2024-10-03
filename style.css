@@ -1,3 +1,4 @@
+/*--------------------------------------------------------------- INDEX.HTML ---------------------------------------------------------------------------------------*/
 /* General Styles */
 body {
     margin: 0;
@@ -26,7 +27,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/hero.jpg');
+    background-image: url('images/4.jpeg');
     background-size: cover;
     text-align: center;
     color: white;
@@ -103,4 +104,39 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+/*--------------------------------------------------------------- INDEX.HTML ---------------------------------------------------------------------------------------*/
+
+#booking-form {
+    padding: 50px;
+    text-align: center;
+}
+
+#booking-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#booking-form label {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#booking-form input, #booking-form select {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#booking-form button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
 }
