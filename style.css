@@ -1,4 +1,40 @@
 /*--------------------------------------------------------------- INDEX.HTML ---------------------------------------------------------------------------------------*/
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px; /* Adjust the width to your preference */
+    height: auto; /* Keeps the image aspect ratio */
+    margin-right: 15px; /* Adds space between the logo and the text */
+}
+
+.logo h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #27ae60;
+}
+
+
 /* General Styles */
 body {
     margin: 0;
