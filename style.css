@@ -234,3 +234,53 @@ footer {
 .active, .dot:hover {
     background-color: #717171;
 }
+
+
+
+
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .prev, .next {
+        padding: 5px;
+        font-size: 18px; /* Smaller icons for mobile */
+    }
+
+    .slides img {
+        height: auto; /* Maintains aspect ratio */
+    }
+
+    /* Font Sizes */
+    header h1 {
+        font-size: 20px;
+    }
+
+    header ul li a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cta-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .slides img {
+        width: 100%;  /* Ensures images take full width of smaller devices */
+    }
+
+    /* Reduce space between elements */
+    section {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
